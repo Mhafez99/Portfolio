@@ -1,0 +1,25 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+@font-face {
+  font-family: 'Hafez';
+  src: url('./RubikVinyl-Regular.ttf');
+}
+:root {
+  --font-base: 'DM Sans', sans-serif;
+  --primary-color: #edf2f8;
+  --secondary-color: #017a72;
+  --secondary-text-color: #77fef5;
+  --black-color: #030303;
+  --lightGray-color: #e6e4e1;
+  --gray-color: #9b9386;
+  --brown-color: #46364a;
+  --white-color: #ffffff;
+  --main-transition: 0.3s;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
