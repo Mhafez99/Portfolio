@@ -50,6 +50,7 @@ const Work = () => {
           'Bootstrap',
           'HTML & CSS & JS & SCSS',
           'REACT JS',
+          'NEXTJS',
           'ALL',
         ].map((item, index) => (
           <div
