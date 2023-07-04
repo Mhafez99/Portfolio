@@ -37,7 +37,10 @@ const Footer = () => {
         })
         .catch((err) => console.log(err));
     } else {
-      setMeg('Please Enter Name & Email To Send Message To Me');
+      setMeg('Please Enter your Name & Email To Send a Message To Me');
+      setTimeout(() => {
+        setMeg('');
+      }, 3000);
     }
   };
   return (
@@ -58,7 +61,7 @@ const Footer = () => {
           </a>
         </div>
       </div>
-      <p className='notation'>{meg}</p>
+          <p className='notation'>{meg}</p>
       {!isFormSubmitted ? (
         <div className='app__footer-form app__flex'>
           <div className='app__flex'>
